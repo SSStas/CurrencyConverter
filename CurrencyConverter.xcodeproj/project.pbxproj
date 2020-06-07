@@ -13,6 +13,7 @@
 		049A47BA248657A400F1C1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A47B9248657A400F1C1B3 /* Assets.xcassets */; };
 		049A47BD248657A400F1C1B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A47BC248657A400F1C1B3 /* Preview Assets.xcassets */; };
 		049A47C0248657A400F1C1B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049A47BE248657A400F1C1B3 /* LaunchScreen.storyboard */; };
+		049A47C82486589800F1C1B3 /* DataAndClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A47C72486589800F1C1B3 /* DataAndClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		049A47BC248657A400F1C1B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		049A47BF248657A400F1C1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049A47C1248657A400F1C1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049A47C72486589800F1C1B3 /* DataAndClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				049A47B32486579B00F1C1B3 /* AppDelegate.swift */,
 				049A47B52486579B00F1C1B3 /* SceneDelegate.swift */,
 				049A47B72486579B00F1C1B3 /* ContentView.swift */,
+				049A47C72486589800F1C1B3 /* DataAndClasses.swift */,
 				049A47B9248657A400F1C1B3 /* Assets.xcassets */,
 				049A47BE248657A400F1C1B3 /* LaunchScreen.storyboard */,
 				049A47C1248657A400F1C1B3 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				049A47B42486579B00F1C1B3 /* AppDelegate.swift in Sources */,
 				049A47B62486579B00F1C1B3 /* SceneDelegate.swift in Sources */,
+				049A47C82486589800F1C1B3 /* DataAndClasses.swift in Sources */,
 				049A47B82486579B00F1C1B3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,13 +290,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = DJQ42VK8TG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CurrencyConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.CurrencyConverter1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +310,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = DJQ42VK8TG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CurrencyConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.CurrencyConverter1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
